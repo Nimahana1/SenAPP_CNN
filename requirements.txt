@@ -1,0 +1,12 @@
+streamlit
+streamlit-option-menu
+tensorflow
+pandas
+numpy
+plotly
+matplotlib
+wordcloud
+Pillow
+Sastrawi
+nltk
+openpyxl

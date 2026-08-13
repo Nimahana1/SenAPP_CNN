@@ -1,0 +1,844 @@
+/* ======================================================
+   THEME
+====================================================== */
+
+:root{
+
+    --background:#0F172A;
+
+    --card:#1E293B;
+
+    --accent:#06B6D4;
+
+    --success:#22C55E;
+
+    --danger:#EF4444;
+
+    --text:#F8FAFC;
+
+    --secondary:#CBD5E1;
+
+    --border:#334155;
+
+    --shadow:0 8px 24px rgba(0,0,0,.25);
+
+}
+
+/* ============================
+   SIDEBAR
+============================ */
+
+section[data-testid="stSidebar"]{
+    background-color:#1E293B;
+    border-right:1px solid #334155;
+}
+
+.sidebar-title{
+
+    text-align:center;
+
+    color:#F8FAFC;
+
+    font-size:28px;
+
+    font-weight:700;
+
+    margin-top:5px;
+
+}
+
+.sidebar-subtitle{
+
+    text-align:center;
+
+    color:#CBD5E1;
+
+    font-size:15px;
+
+    margin-bottom:15px;
+
+}
+
+.sidebar-footer{
+
+    text-align:center;
+
+    color:#CBD5E1;
+
+    font-size:13px;
+
+    padding-top:15px;
+
+}
+
+/* ============================
+OPTION MENU
+============================ */
+
+.nav-link{
+
+    border-radius:12px !important;
+
+    margin-bottom:8px !important;
+
+    transition:0.3s;
+
+    font-size:16px !important;
+
+}
+
+.nav-link:hover{
+
+    background:#334155 !important;
+
+}
+
+.nav-pills .nav-link.active{
+
+    background:#06B6D4 !important;
+
+    color:white !important;
+
+}
+
+.nav-link i{
+
+    color:#06B6D4;
+
+}
+
+hr{
+
+    border:1px solid #334155;
+
+}
+
+.stApp{
+
+    background:#0F172A;
+
+}
+
+
+/* ============================
+   HERO SECTION
+============================ */
+
+.hero-card{
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: var(--shadow);
+    margin-bottom: 30px;
+}
+
+.hero-container{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.hero-image{
+    flex:1;
+}
+
+.hero-image img{
+    width:100%;
+    border-radius:18px;
+}
+
+.hero-content{
+    flex:1;
+}
+
+.hero-title{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:var(--text);
+
+    margin-bottom:8px;
+}
+
+.hero-subtitle{
+
+    font-size:24px;
+
+    color:var(--accent);
+
+    font-weight:600;
+
+    margin-bottom:20px;
+}
+
+.hero-description{
+
+    color:var(--secondary);
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    text-align:justify;
+
+    margin-bottom:20px;
+
+}
+
+.badge{
+
+display:inline-block;
+
+padding:8px 16px;
+
+margin-right:10px;
+
+border-radius:30px;
+
+background:#0F172A;
+
+border:1px solid var(--border);
+
+color:var(--text);
+
+font-size:13px;
+
+font-weight:600;
+
+}
+
+/* ===========================
+   SECTION TITLE
+=========================== */
+
+.section-title{
+
+font-size:28px;
+
+font-weight:700;
+
+margin-bottom:20px;
+
+color:var(--text);
+
+}
+
+/* ======================================================
+   METRIC CARD
+====================================================== */
+
+.metric-card{
+
+    background:#1E293B;
+
+    border:1px solid #334155;
+
+    border-radius:18px;
+
+    padding:28px 20px;
+
+    text-align:center;
+
+    transition:.25s;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.25);
+
+    min-height:190px;
+
+}
+
+.metric-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#06B6D4;
+
+    box-shadow:0 16px 30px rgba(6,182,212,.18);
+
+}
+
+.metric-emoji{
+
+    font-size:38px;
+
+    margin-bottom:14px;
+
+}
+
+.metric-number{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:#F8FAFC;
+
+    margin-bottom:8px;
+
+}
+
+.metric-label{
+
+    color:#CBD5E1;
+
+    font-size:15px;
+
+    line-height:1.4;
+
+}
+
+/* ======================
+SECTION DESCRIPTION
+====================== */
+
+.section-description{
+
+font-size:15px;
+
+color:var(--secondary);
+
+margin-bottom:20px;
+
+}
+
+.analytics-card{
+
+background:var(--card);
+
+border-radius:18px;
+
+padding:25px;
+
+border:1px solid var(--border);
+
+box-shadow:var(--shadow);
+
+margin-bottom:30px;
+
+transition:.3s;
+
+}
+
+.analytics-card:hover{
+
+border-color:var(--accent);
+
+}
+
+/* ==========================================================
+SUMMARY CARD
+========================================================== */
+
+/* ======================================================
+   SUMMARY CARD
+====================================================== */
+
+.summary-card{
+
+    background:var(--card);
+
+    border-radius:18px;
+
+    padding:25px;
+
+    text-align:center;
+
+    border:1px solid var(--border);
+
+    transition:.3s;
+
+}
+
+.summary-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.summary-card h2{
+
+    margin:0;
+
+    font-size:34px;
+
+    color:var(--text);
+
+}
+
+.summary-card p{
+
+    margin:10px 0;
+
+    color:var(--secondary);
+
+}
+
+.summary-card small{
+
+    color:var(--text);
+
+    font-size:15px;
+
+}
+
+/* ==================================================
+WORDCLOUD
+================================================== */
+
+.wordcloud-card{
+
+background:var(--card);
+
+border:1px solid var(--border);
+
+border-radius:18px;
+
+padding:20px;
+
+box-shadow:var(--shadow);
+
+transition:.3s;
+
+margin-bottom:15px;
+
+}
+
+.wordcloud-card:hover{
+
+transform:translateY(-5px);
+
+border-color:var(--accent);
+
+}
+
+.wordcloud-title{
+
+font-size:20px;
+
+font-weight:600;
+
+margin-bottom:15px;
+
+color:var(--text);
+
+}
+
+.wordcloud-title i{
+
+margin-right:10px;
+
+color:var(--accent);
+
+}
+
+.wordcloud-footer{
+
+margin-top:15px;
+
+padding-top:15px;
+
+border-top:1px solid var(--border);
+
+text-align:center;
+
+color:var(--secondary);
+
+font-size:15px;
+
+}
+
+.wordcloud-card-title{
+
+font-size:20px;
+
+font-weight:600;
+
+margin-bottom:15px;
+
+color:var(--text);
+
+}
+
+.wordcloud-card-title i{
+
+margin-right:10px;
+
+color:var(--accent);
+
+}
+
+/* ==========================================
+   SAMPLE REVIEW
+========================================== */
+
+.review-header{
+
+    padding:12px 18px;
+
+    border-radius:12px;
+
+    margin-bottom:15px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    color:var(--text);
+
+}
+
+.positive-review{
+
+    background:rgba(34,197,94,.15);
+
+    border:1px solid #22C55E;
+
+}
+
+.negative-review{
+
+    background:rgba(239,68,68,.15);
+
+    border:1px solid #EF4444;
+
+}
+
+.review-card{
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    border-radius:14px;
+
+    padding:18px;
+
+    margin-bottom:15px;
+
+    color:var(--secondary);
+
+    line-height:1.7;
+
+    transition:.3s;
+
+}
+
+.review-card:hover{
+
+    transform:translateY(-3px);
+
+    border-color:var(--accent);
+
+}
+
+/* ======================================================
+   CONCLUSION CARD
+====================================================== */
+
+.conclusion-card{
+
+    background:#1E293B;
+
+    border:1px solid #334155;
+
+    border-left:5px solid #06B6D4;
+
+    border-radius:18px;
+
+    padding:24px;
+
+    margin:15px 0;
+
+    color:#F8FAFC;
+
+    transition:.25s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+
+}
+
+.conclusion-card:hover{
+
+    transform:translateY(-4px);
+
+    border-left:5px solid #22C55E;
+
+}
+
+.conclusion-card h4{
+
+    margin-bottom:12px;
+
+    color:#06B6D4;
+
+    font-weight:600;
+
+}
+
+.conclusion-card b{
+
+    color:#22C55E;
+
+}
+
+/* ======================================================
+   PREDICTION
+====================================================== */
+
+.stTextArea textarea{
+
+    background:#1E293B !important;
+
+    color:#F8FAFC !important;
+
+    border:1px solid #334155 !important;
+
+    border-radius:16px !important;
+
+    font-size:16px !important;
+
+}
+
+.stButton button{
+
+    height:52px;
+
+    border-radius:14px;
+
+    font-weight:600;
+
+    transition:.25s;
+
+}
+
+.stButton button:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* ======================================================
+   Prediction Result
+====================================================== */
+
+.prediction-result-card{
+
+    background:#1E293B;
+
+    border:1px solid #334155;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+.prediction-icon{
+
+    font-size:56px;
+
+    margin-bottom:8px;
+
+}
+
+.prediction-title{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:#F8FAFC;
+
+}
+
+.prediction-confidence{
+
+    color:#94A3B8;
+
+    font-size:17px;
+
+    margin-top:8px;
+
+}
+
+.prediction-small-card{
+
+    background:#1E293B;
+
+    border:1px solid #334155;
+
+    border-radius:12px;
+
+    padding:12px 18px;
+
+    margin-bottom:10px;
+
+}
+
+/* ======================================================
+   Prediction
+====================================================== */
+
+.prediction-card{
+
+    background:#1E293B;
+
+    border:1px solid #334155;
+
+    border-radius:18px;
+
+    padding:28px;
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+.prediction-icon{
+
+    font-size:60px;
+
+    color:#06B6D4;
+
+}
+
+.prediction-title{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    margin-top:10px;
+
+}
+
+.prediction-subtitle{
+
+    color:#94A3B8;
+
+    margin-top:10px;
+
+}
+
+.prediction-score{
+
+    font-size:34px;
+
+    font-weight:700;
+
+    margin-top:10px;
+
+    color:#F8FAFC;
+
+}
+
+.info-card{
+
+    background:#1E293B;
+
+    border:1px solid #334155;
+
+    border-radius:14px;
+
+    padding:18px;
+
+    text-align:center;
+
+}
+
+.prediction-empty{
+
+    background:#1E293B;
+
+    border:1px dashed #475569;
+
+    border-radius:18px;
+
+    padding:50px;
+
+    text-align:center;
+
+    color:#CBD5E1;
+
+}
+
+.prediction-empty i{
+
+    font-size:60px;
+
+    color:#06B6D4;
+
+    margin-bottom:15px;
+
+}
+
+/* ======================================================
+   SEMBUNYIKAN TOOLBAR/NAVIGASI BAWAAN STREAMLIT
+   (Deploy button, menu titik tiga, ikon fullscreen)
+   TANPA menghilangkan tombol buka/tutup sidebar
+   ====================================================== */
+
+/* Header TETAP ADA di DOM (jangan display:none total),
+   cuma dibuat transparan + dipipihkan tingginya, supaya
+   tombol buka/tutup sidebar yang ada di dalamnya tetap
+   bisa dipakai. */
+header[data-testid="stHeader"] {
+    background: transparent !important;
+    box-shadow: none !important;
+    height: 3.2rem;
+}
+
+/* Toolbar (Deploy + menu titik tiga) */
+[data-testid="stToolbar"] {
+    visibility: hidden;
+}
+
+/* Garis warna dekorasi tipis */
+[data-testid="stDecoration"] {
+    visibility: hidden;
+}
+
+/* Status widget (mis. "Running...") */
+[data-testid="stStatusWidget"] {
+    visibility: hidden;
+}
+
+/* Menu hamburger lama (versi Streamlit lama) */
+#MainMenu {
+    visibility: hidden;
+}
+
+/* Footer bawaan "Made with Streamlit" */
+footer {
+    visibility: hidden;
+}
+
+/* Tombol "View fullscreen" saat hover di gambar/chart */
+[data-testid="StyledFullScreenButton"] {
+    visibility: hidden;
+}
+
+/* PENTING: pastikan tombol buka/tutup sidebar (panah) TETAP
+   terlihat & bisa diklik, jangan ikut ke-sembunyikan */
+[data-testid="collapsedControl"] {
+    visibility: visible !important;
+    display: flex !important;
+    opacity: 1 !important;
+}
+
+/* Rapikan jarak atas konten */
+.block-container {
+    padding-top: 1.5rem !important;
+}
+
+section[data-testid="stSidebar"] > div {
+    padding-top: 1.5rem !important;
+}
